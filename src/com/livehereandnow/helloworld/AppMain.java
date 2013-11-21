@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package hi;
+package com.livehereandnow.helloworld;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -16,12 +16,13 @@ import javafx.stage.Stage;
  *
  * @author mark
  */
-public class Hi extends Application {
+public class AppMain extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        
+//        Parent root = FXMLLoader.load(getClass().getResource("HelloWorld.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("App.fxml"));
+        System.out.println("after loading App.fxml");
         Scene scene = new Scene(root);
         
         stage.setScene(scene);

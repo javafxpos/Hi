@@ -11,7 +11,7 @@
   </resources>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Hi.jar" size="20694" download="eager" />
+    <jar href="Hi.jar" size="22613" download="eager" />
   </resources>
 <security>
   <all-permissions/>
@@ -19,6 +19,6 @@
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Hi" >
     <param name="requiredFXVersion" value="2.2+"/>
   </applet-desc>
-  <jfx:javafx-desc  width="800" height="600" main-class="hi.Hi"  name="Hi" />
+  <jfx:javafx-desc  width="800" height="600" main-class="com.livehereandnow.helloworld.AppMain"  name="Hi" />
   <update check="always"/>
 </jnlp>

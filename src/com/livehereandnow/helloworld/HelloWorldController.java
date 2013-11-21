@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package hi;
+package com.livehereandnow.helloworld;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -17,7 +17,7 @@ import javafx.scene.control.Label;
  *
  * @author mark
  */
-public class FXMLDocumentController implements Initializable {
+public class HelloWorldController implements Initializable {
     
     @FXML
     private Label label;
@@ -25,7 +25,7 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
-        label.setText("Hello World!");
+        label.setText("Hello World!\n"+java.util.Calendar.getInstance().getTime());
     }
     
     @Override
